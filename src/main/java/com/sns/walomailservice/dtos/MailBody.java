@@ -5,15 +5,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.util.Map;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 public class MailBody {
-    private String recipientEmail;
-    private String message;
+    private String recipient;
+    private String msgBody;
     private String subject;
-    private String signature;
-    private String cc;
-    private String bcc;
+    private Map<String,String> code;
 }
