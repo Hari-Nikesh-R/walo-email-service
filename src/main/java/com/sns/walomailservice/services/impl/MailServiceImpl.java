@@ -20,7 +20,7 @@ public class MailServiceImpl implements MailService {
     public Boolean sendEmail(MailBody mailBody) {
         try {
             final String username = "dosmartie@gmail.com";
-            final String password = "k9DGrv5ghC7SOncR";
+            final String password = "XXXXXXXXXX";
 
             Properties props = new Properties();
             props.put("mail.smtp.auth", "true");
